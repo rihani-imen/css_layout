@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans:wght@100&display=swap");
+.img {
+  height: 33px;
+  width: 268px;
+  margin-top: 10px;
+}
+.navigateur {
+  /*border: 1px solid red;*/
+  display: flex;
+  justify-content: space-around;
+}
+.navbar {
+  /*border: 1px solid black;*/
+  display: flex;
+  list-style: none;
+  width: 252px;
+  height: 30px;
+  justify-content: space-around;
+  color: #ababab;
+}
+.navbar > li:hover {
+  color: #00b39b;
+  cursor: pointer;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #747474;
+}
+.logo2 {
+  height: 40pxx;
+  width: 39px;
+}
+.sect1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 34px;
+  /* border: 1px solid red;*/
+  height: 308px;
+}
+.prg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 1100px;
+  /*border: 1px solid black;*/
+}
+.prg > p {
+  height: 112px;
+  width: 477px;
+  /* border: 1px solid blue;*/
+  margin: 0.8em 0;
+  line-height: 1.75;
+  font-weight: 400;
+}
+.sect1 > h1 {
+  font-size: 2.125rem;
+  color: #00b39b;
+  font-weight: 300px;
+  margin-top: 34px;
+  font-family: "Work Sans", sans-serif;
+}
+/* thisis the secend section */
+.sect2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.patrie1 {
+  background: #00ccb1;
+  /*border: 1px solid black;*/
+  height: 300px;
+  width: 250px;
+  border-radius: 10px;
+  padding: 30px;
+}
+.patient {
+  height: 280px;
+  width: 250px;
+  /*border: 1px solid red;*/
+  color: #ffffff;
+  font-family: "Work Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#selection {
+  width: 250px;
+  height: 40px;
+  color: #ffffff;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  text-transform: none;
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-items: end;
+  /*border: 1px solid black;*/
+}
+
+.patrie2 {
+  background: #3d83df;
+  /*border: 1px solid black;*/
+  height: 300px;
+  width: 250px;
+  border-radius: 10px;
+  padding: 30px;
+}
+.doctor {
+  width: 250px;
+  height: 280px;
+  /*border: 1px solid red;*/
+  color: #ffffff;
+  font-family: "Work Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.patrie3 {
+  background: #1b2734;
+  /*border: 1px solid black;*/
+  height: 300px;
+  width: 250px;
+  border-radius: 10px;
+  padding: 30px;
+}
+.clinic {
+  width: 250px;
+  height: 290px;
+  /*border: 1px solid red;*/
+  color: #ffffff;
+  font-family: "Work Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* css of SECTION 3*/
+.sect3 {
+  width: 1000px;
+  height: 155px;
+  /*border: 1px solid red;*/
+  margin-top: 40px;
+  margin-bottom: 50px;
+  padding-left: 150px;
+  padding-right: 1500px;
+  display: flex;
+  justify-content: space-between;
+}
+.bh {
+  color: #00b39b;
+  font-family: "Work Sans", Arial, sans-serif;
+  /*border: 1px solid black;*/
+  width: 200px;
+}
+.sect3 > .liste > ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.liste {
+  width: 500px;
+  height: 155px;
+}
+/* css of section 4*/
+.sect4 {
+  background: #d4f5f3;
+  background-image: url(https://www.docplanner.com/img/logo.png);
+  background-size: 1000px, 1000px;
+  /*border: 1px solid red;*/
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+  width: 1325px;
+}
+
+#art2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* border: 1px solid purple;*/
+  padding-left: 100px;
+  padding-right: 100px;
+}
+#art2 > div {
+  background-color: #ffffff;
+  /*border: 1px solid black;*/
+  height: 200px;
+  width: 220px;
+  display: block;
+  margin-block-start: 5px;
+  margin-block-end: 5px;
+  text-align: center;
+}
+#art1 > h1 {
+  color: #00b39b;
+  font-family: "Work Sans", Arial, sans-serif;
+  width: 398px;
+  height: 88px;
+  font-size: 33px;
+}
+#art1 > p {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  height: 50px;
+  width: 398;
+}
+#art1 {
+  height: 180px;
+  width: 390px;
+  padding-left: 150px;
+}
+.sect5 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 400px;
+  padding-right: 300px;
+  width: 450px;
+}
+.sect5 > h1 {
+  color: #00b39b;
+  font-family: "Work Sans", Arial, sans-serif;
+  width: 398px;
+  height: 88px;
+  font-size: 30px;
+  text-align: center;
+}
+.sect5 > p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  height: 50px;
+  width: 398;
+  text-align: center;
+}
+.sect6 {
+  /*border: 1px solid black;*/
+  height: 1000px;
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 80px;
+}
+.sect6 > div > p {
+  color: #747474;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  /*border: 1px solid red;*/
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.sect6 > div > p > button {
+  cursor: pointer;
+  background-color: rgb(43, 149, 219);
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  color: #ffffff;
+  border: 0px;
+  width: 124px;
+  height: 30px;
+}
+.sect6 > div > p > button:hover {
+  background-color: rgb(0, 81, 255);
+}
+.sect7 > h1 {
+  color: #333333;
+  font-family: "Work Sans", sans-serif;
+  font-size: 30px;
+}
+.sect7 > button {
+  cursor: pointer;
+  background-color: rgb(43, 149, 219);
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  color: #ffffff;
+  border: 0px;
+  height: 40px;
+  width: 310px;
+  text-align: center;
+  margin-left: 500px;
+}
+.sect7 > button:hover {
+  background-color: rgb(0, 81, 255);
+}
+.sect7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+footer {
+  color: #ababab;
+  font-size: 13px;
+  height: 31px;
+  width: 815;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+}
